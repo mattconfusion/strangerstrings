@@ -1,3 +1,4 @@
+Object.defineProperty(exports, "__esModule", { value: true });
 var StrangerStrings = /** @class */ (function () {
     function StrangerStrings() {
     }
@@ -102,3 +103,4 @@ var StrangerStrings = /** @class */ (function () {
     };
     return StrangerStrings;
 }());
+exports.StrangerStrings = StrangerStrings;

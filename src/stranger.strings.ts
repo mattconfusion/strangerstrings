@@ -1,4 +1,4 @@
-abstract class StrangerStrings {
+export abstract class StrangerStrings {
     
     private static flipTable = {
         '\u0021' : '\u00A1',
