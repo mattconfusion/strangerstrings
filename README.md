@@ -17,6 +17,9 @@ A pretty simple JS/TS library inspired by **Stranger Things**® and hacked toget
 ```javascript
   StrangerStrings.upsideDown('Strings from the UpsideDown');
   // returns 'uʍo◖ǝpısd∩ ǝɥʇ ɯoɹɟ sƃuıɹʇS'
+
+  StrangerStrings.upsideDown('uʍo◖ǝpısd∩ ǝɥʇ ɯoɹɟ sƃuıɹʇS');
+  // returns 'Strings from the UpsideDown'
 ```
 
 And beware the **real** [*Demogorgon*](https://en.wikipedia.org/wiki/Demogorgon_(Dungeons_%26_Dragons))!
