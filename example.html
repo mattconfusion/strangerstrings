@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>StrangerStrings Example</title>
+   
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
+
+</head>
+<body style="margin: 3%;">
+    <h1>
+        StrangerStrings - Example
+    </h1>
+    <div class="content">
+        <strong>
+            Example:
+        </strong>
+        <p>
+            Cras eget tortor turpis. Vivamus rutrum augue non justo fringilla, vel posuere sapien dignissim. 
+            Praesent sodales, dui id pharetra hendrerit, diam risus ultricies sem, et tincidunt odio ligula 
+            quis felis. Donec iaculis eleifend sem et faucibus. Vestibulum quis ipsum et odio laoreet blandit. 
+            Vestibulum lobortis mattis tortor, eget hendrerit nunc tincidunt nec. Curabitur vel neque at est 
+            egestas volutpat id eu enim. Etiam vel fermentum libero.
+        </p>
+    </div>
+    <br><br>
+    <div class="upside-down">
+        <strong>
+            ...becomes:
+        </strong>
+        <p>
+        </p>
+    </div>
+    <div class="footer" style="text-align: center">
+        <hr>
+        <p>
+            <a href="https://github.com/mattconfusion" class="href">
+                https://github.com/mattconfusion
+            </a>
+        </p>
+    </div>
+</body>
+<script>
+    exports = {};
+</script>
+<script src="src/stranger.strings.js"></script>
+<script>
+    var text = document.querySelector("div.content p").innerHTML;
+    document.querySelector("div.upside-down p").innerHTML = StrangerStrings.upsideDown(text);
+</script>
+</html>
