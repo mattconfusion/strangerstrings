@@ -10,7 +10,7 @@
 
 ## Stranger Strings
 
-A pretty simple JS/TS library inspired by **Stranger Things**® and hacked together by looking at [**FileFormat**](http://www.fileformat.info/convert/text/upside-down-map.htm).
+A pretty simple JS/TS library inspired by **Stranger Things**® and hacked together by looking at this [**FileFormat**](http://www.fileformat.info/convert/text/upside-down-map.htm) article.
 
 ### Usage
 
@@ -19,4 +19,4 @@ A pretty simple JS/TS library inspired by **Stranger Things**® and hacked toget
   // returns 'uʍo◖ǝpısd∩ ǝɥʇ ɯoɹɟ sƃuıɹʇS'
 ```
 
-And beware the **real** [*Demogorgon*](https://en.wikipedia.org/wiki/Demogorgon_(Dungeons_%26_Dragons)!
+And beware the **real** [*Demogorgon*](https://en.wikipedia.org/wiki/Demogorgon_(Dungeons_%26_Dragons))!
